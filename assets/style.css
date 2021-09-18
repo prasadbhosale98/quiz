@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    background-color: hsl(206, 92%, 94%);
+    place-items: center;
+   
+}
+
+.smallcontainer{
+     width:25vw ;
+     min-height: 20vh;
+    background-color: floralwhite;
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem 0 3rem 0;
+}
+
+li{
+    font-size: 1rem;
+    margin: 0.5rem;
+    list-style: none;
+}
+
+input{
+ cursor: pointer;
+}
+
+#submit, btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 1rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: rgb(26, 25, 25);
+    background-color: rgb(236, 232, 229);
+    border-radius: 2rem;
+   
+}
+#submit:hover{
+    background-color: rgb(152, 199, 236);
+}
+
+#result{
+    background-color: rgb(141, 161, 177);
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+#result h3{
+   
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(199, 250, 60);
+    text-align: center;
+}
+#result .btn{
+    padding-right: 2px;
+    padding: 1rem 1rem;
+   justify-content: center;
+    font-size: medium;
+    margin-top: 2rem;
+    background-color: #e0bebe;
+    border: tomato;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+#result .btn:hover{
+    background-color: turquoise;
+}
+
+
+.score{
+   
+    display: none;
+}
